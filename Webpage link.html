@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion mode</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header h1, footer p {
+            margin: 0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 2rem 0;
+        }
+
+        /* Hero Section */
+        #hero .container {
+    background-image: url('bg.jpg');
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow color and blur radius as needed */
+}
+
+
+
+        .hero h2 {
+            margin: 0;
+            font-size: 3rem;
+
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        /* Menu Section */
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .menu-item {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* About Section */
+        #about {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #about img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-left: 40%;
+        }
+        .aboutus{
+            background-color:rgb(255, 255, 255);
+            padding:5px ;
+            border-radius: 2px;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Contact Section */
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact form input, #contact form textarea {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        #contact form button {
+            padding: 0.7rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fashion Mode</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Welcome to Fashion Mode</h2>
+            <p>Experience of the fashion shop</p>
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <div class="container">
+            <h2>Collections</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="swa2510.jpg">
+                    <h3>Western  Fashion</h3>
+                    <p>Yeehaw! The best western wear to rock any occasion</p>
+                </div>
+                <div class="menu-item">
+                    <img src="swaybwew.jpg">
+                    <h3>Jeans collections</h3>
+                    <p>All fashion brands are about looking good.And you can do good by the simple act of slipping into a t-shirt or a pair of jeans.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="syacshw.jpg" >
+                    <h3>Short tops</h3>
+                    <p>Leave a little sparkle whatever you go. Life is better with crop tops and good company.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <img src="WhatsApp Image 2024-06-03 at 21.58.24_7fee79b1.jpg" alt="about us">
+            <div class="aboutus">
+                <h2>About Us</h2>
+                <p>Fashion is aprt of the daily air and it changes all the time, with all the events. You can ever see the approaching of a revolution in clothes. You can see and feel everything in clothes."</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"I am so delighted in your clothing! It is absolutely gorgeous...." </p>
+                </div>
+                <div class="testimonial">
+                    <p>"The product quality is consistently outstanding, exceeding my expectations."</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Wow, you have a really great fashion sense to collect and way of collection are good."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Burger Hut. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
